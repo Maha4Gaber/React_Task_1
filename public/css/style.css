@@ -1,0 +1,103 @@
+
+
+body
+{
+  background-color: #efefef;
+}
+#main
+{
+  width: 100%;
+  margin:100px 0px;
+  display: flex;
+}
+
+#main form
+{
+  width: 49%;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgb(2, 45, 51);
+  border-radius: 10px;  
+}
+#main form label
+{
+  color: #efefef;
+  display: inline-block;
+  width: 25%;
+  font-size: 23px ;
+  font-weight: bold;
+}
+#main form input
+{
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+}
+#main form input:focus
+{
+  outline: none;
+}
+#main form input:last-of-type
+{
+  margin-left: 40% ;
+  width: 25%;
+  font-size: 25px;
+  color: #efefef;
+  
+  background-color: rgb(0, 151, 144);
+}
+#main ul 
+{
+  width: 49%;
+  margin: 20px;
+  background-color: rgb(2, 45, 51);
+  padding: 30px;
+  border-radius: 10px;  
+  color: white;
+  list-style: none;
+}
+#main ul li{
+  margin:20px auto;
+  text-align: center;
+  background-color: rgb(0, 151, 144);
+  padding: 10px;
+  border-radius: 10px;  
+  width: 95%;
+}
+ @media (max-width:991px) {
+#main
+{
+  flex-direction: column;
+  gap: 20px;
+}
+#main form
+{
+  width: 80%;
+  margin:  auto;
+}
+#main form input
+{
+  width: 90%;
+  
+}
+#main form label
+{
+  width: 90%;
+
+}
+#main form input:last-of-type
+{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+#main ul
+{
+  width: 80%;
+  margin:  auto;
+}
+  
+ }
